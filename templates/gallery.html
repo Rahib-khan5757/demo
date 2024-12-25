@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Gym Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>XGYM</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="gallery">
+        <h2>Our Gym Gallery</h2>
+        <p>Explore our gym's facilities, classes, and community through these images.</p>
+
+        <section class="gallery-grid">
+            <div class="gallery-item">
+                <a href="images/gallery1.jpg" target="_blank">
+                    <img src="/static/1.jpg" alt="Gym Workout 1">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/gallery2.jpg" target="_blank">
+                    <img src="/static/2.jpg" alt="Gym Workout 2">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/gallery3.jpg" target="_blank">
+                    <img src="/static/3.jpg" alt="Gym Workout 3">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/gallery4.jpg" target="_blank">
+                    <img src="/static/4.jpg" alt="Gym Workout 4">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/gallery5.jpg" target="_blank">
+                    <img src="/static/5.jpg" alt="Gym Workout 5">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="images/gallery6.jpg" target="_blank">
+                    <img src="/static/6.jpg" alt="Gym Workout 6">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 XGYM. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
